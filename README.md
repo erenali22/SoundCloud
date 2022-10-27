@@ -155,7 +155,7 @@ user's information.
 - Request
 
   - Method: POST
-  - URL: /api/newuser
+  - URL: /api/new/user
   - Headers:
     - Content-Type: application/json
   - Body:
@@ -519,7 +519,7 @@ Updates and returns an existing song.
 - Require proper authorization: Song must belong to the current user
 - Request
 
-  - Method: PUT or PATCH
+  - Method: PUT
   - URL: /api/songs/:songId
   - Headers:
     - Content-Type: application/json
@@ -685,7 +685,7 @@ Creates and returns a new playlist.
 - Request
 
   - Method: POST
-  - URL: /api/playlist
+  - URL: /api/playlists
   - Headers:
     - Content-Type: application/json
   - Body:
@@ -741,7 +741,7 @@ Add a song to a playlist specified by the playlist's id.
 - Request
 
   - Method: POST
-  - URL: /api/playlists/:playlistId/song
+  - URL: /api/playlists/:playlistId/songs
   - Headers:
     - Content-Type: application/json
   - Body:
@@ -859,7 +859,7 @@ Updates and returns an existing playlist.
 - Require proper authorization: Playlist must belong to the current user
 - Request
 
-  - Method: Method: PUT or PATCH
+  - Method: Method: PUT
   - URL: /api/playlists/:playlistId
   - Headers:
     - Content-Type: application/json
@@ -1123,8 +1123,8 @@ Update and return an existing comment.
 - Require proper authorization: Comment must belong to the current user
 - Request
 
-  - Method: PUT or PATCH
-  - URL: /api/songs/comments/:commentId
+  - Method: PUT
+  - URL: /api/comments/:commentId
   - Headers:
     - Content-Type: application/json
   - Body:
@@ -1412,7 +1412,7 @@ Creates and returns a new album.
 - Request
 
   - Method: POST
-  - URL: /api/album
+  - URL: /api/albums
   - Headers:
     - Content-Type: application/json
   - Body:
@@ -1469,7 +1469,7 @@ Updates and returns an existing album.
 - Require proper authorization: Album must belong to the current user
 - Request
 
-  - Method: PUT or PATCH
+  - Method: PUT
   - URL: /api/albums/:albumId
   - Headers:
     - Content-Type: application/json
