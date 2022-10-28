@@ -1679,4 +1679,4 @@ Return songs filtered by query parameters.
     }
     ```
 
-[db-soundcloud-schema]:
+[db-soundcloud-schema]: https://github.com/erenali22/SoundCloud/raw/main/soundcloud-schema.png
