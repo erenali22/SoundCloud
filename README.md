@@ -2,7 +2,7 @@
 
 ## Database Schema Design
 
-`<insert database schema design here>`
+![db-soundcloud-schema]
 
 ## API Documentation
 
@@ -1678,3 +1678,5 @@ Return songs filtered by query parameters.
       }
     }
     ```
+
+[db-soundcloud-schema]:
