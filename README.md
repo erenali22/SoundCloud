@@ -2,7 +2,7 @@
 
 ## Database Schema Design
 
-!(schema)[soundcloud-schema.png]
+!(soundcloud-schema)[soundcloud-schema.png]
 
 ## API Documentation
 
