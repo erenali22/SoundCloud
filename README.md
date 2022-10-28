@@ -2,7 +2,7 @@
 
 ## Database Schema Design
 
-![db-soundcloud-schema]
+!(schema)[soundcloud-schema.png]
 
 ## API Documentation
 
@@ -1678,5 +1678,3 @@ Return songs filtered by query parameters.
       }
     }
     ```
-
-[db-soundcloud-schema]: https://github.com/erenali22/SoundCloud/raw/main/soundcloud-schema.png
